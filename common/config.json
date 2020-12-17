@@ -1,0 +1,15 @@
+{
+  "active_environment": "qa_environment",
+  "ui_running_config": {
+    "ui_language": "EN",
+    "ui_browser": "chrome"
+  },
+  "ui_environments": {
+    "dev_environment": {
+      "open_weather_url": "https://openweathermap.org/"
+    },
+    "qa_environment": {
+      "open_weather_url": "https://openweathermap.org/"
+    }
+  }
+}
