@@ -1,13 +1,22 @@
 ## Install the required software
 1/ Programming language: Python 3.9 or latest\
 2/ IDE: PyCharm (Community Edition) or Visual studio code\
-3/ Source control: Git
+3/ Source control: Git\
+4/ Browsers: Chrome, Firefox, Edge Chromium
 
 
 ## Install dependencies
 ```
 $ pip install -r requirements.txt
 ```
+
+## Switching between browser
+Go to file "./common/config.json", change value of "ui_browser": "{name_browser}"\
+With replacing "{name_browser}":\
+1/ "chrome" - for Chrome browser or\
+2/ "firefox" - for Firefox browser or\
+3/ "edge' - for Edge Chromium browser
+
 
 ## Execute the test
 ```
